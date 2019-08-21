@@ -1,0 +1,138 @@
+@font-face{
+    font-family: pt-sans;
+    src: url(../fonts/ptsansnarrow.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: pt-sans;
+    src: url(../fonts/ptsansnarrowbold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: pt-sans;
+    text-transform: uppercase;
+}
+
+header{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    font-weight: 700;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main-body{
+    background: url("../img/Layer.jpg") center top no-repeat;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container{
+    width:900px;
+    margin: 0 auto;
+}
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation-list li{
+    cursor: pointer;
+}
+
+.navigation-list-elem a{
+    display: block;
+    padding:25px 20px;
+}
+
+header a:hover,header a:focus{
+    background-color: #242424;
+}
+
+.enter-to-site{
+    max-width: 140px;
+}
+
+.enter-to-site a{
+    padding: 25px 10px 25px 40px;
+}
+
+.enter-to-site a::before{
+    content:"1 ";
+}
+
+/*Преимущества и лого*/
+.main-logo img{
+    display: block;
+    margin: 60px auto 80px auto;
+}
+
+.advantages-wrapper{
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 85px;
+}
+
+.advantages-elem{
+    text-align: center;
+}
+
+.advantages-elem-title{
+    position: relative;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 60px;
+}
+
+.advantages-elem-title::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    margin-left: -10px;
+}
+
+.advantages-elem-text{
+    font-size: 14px;
+    line-height: 24px;
+}
+/*Преимущества и лого*/
+
+.info-block{
+    height: 20px;
+    background-image: url("../img/layer-info-blog.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
